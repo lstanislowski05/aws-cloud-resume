@@ -1,18 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Cloud Resume</title>
-    <style>
-        body { font-family: Arial; background: #f0f2f5; text-align: center; padding: 50px; }
-        .resume-card { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; }
-        h1 { color: #1a73e8; }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Portfolio | CI/CD Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="resume-card">
-        <h1>Landon Stanislowksi</h1>
-        <p>Cyber Security Intern| Automated Deployment Project</p>
-        <p>Deployed via Jenkins on Ubuntu to AWS S3</p>
+    <div class="container">
+        <header>
+            <h1>Cloud Computing Final Project</h1>
+            <div id="auth-status" class="badge">Secure HTTPS Connection</div>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>System Status</h2>
+                <p><strong>Status:</strong> <span class="green-text">Live</span></p>
+                <p><strong>Current Version:</strong> v1.0.0 (Initial Deployment)</p>
+            </section>
+
+            <section class="card">
+                <h2>Technologies Used</h2>
+                <ul>
+                    <li>AWS S3 (Hosting)</li>
+                    <li>AWS ACM & CloudFront (SSL/TLS)</li>
+                    <li>Jenkins (CI Pipeline)</li>
+                    <li>GitHub (Version Control)</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>Built for Comp Sci 373 - 2026</p>
+        </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

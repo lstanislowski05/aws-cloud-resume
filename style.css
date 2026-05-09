@@ -1,0 +1,55 @@
+:root {
+    --aws-squid-ink: #232f3e;
+    --aws-smile: #ff9900;
+    --light-bg: #f2f3f3;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-bg);
+    margin: 0;
+    color: var(--aws-squid-ink);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.badge {
+    background-color: #0073bb;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.green-text {
+    color: #2d8133;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 40px;
+}
